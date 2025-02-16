@@ -1,0 +1,166 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #002d72;
+    color: white;
+    /* border-bottom: 1px solid #ddd; */
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .navbar-content h1 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar-buttons button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  }
+  
+
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .language-dropdown {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .submit {
+    padding: 5px 10px;
+    background-color: #019CDB;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit:hover {
+    background-color: #017bb5;
+  }
+  
+  .submit:disabled {
+    background-color: #94a3b8;
+    cursor: not-allowed;
+  }
+  
+  .navbar-user {
+    position: relative;
+    margin-left: 20px; /* Add some space between controls and profile */
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .profile-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #019CDB;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 150px;
+  }
+  
+  .dropdown-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #f1f8e9; /* Light green */
+    padding: 10px;
+    /* border-right: 1px solid #ddd; */
+  }
+  
+  .furnace-audit-form {
+    background-color: #fff3e0; /* Light orange */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  h1{
+    color: white;
+  }

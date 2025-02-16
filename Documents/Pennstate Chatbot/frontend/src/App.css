@@ -1,0 +1,197 @@
+.App {
+  display: flex; 
+  flex-direction: column;
+ 
+  background-image: url('/Penn-State-Image.jpg');
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  
+}
+
+.left-text {
+  text-align: left;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 1rem;
+  margin: 10px;
+}
+
+.center-text {
+  text-align: center;
+  flex: 1;
+}
+
+.right-text {
+  text-align: right;
+  flex: 1;
+}
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.main-content {
+  margin-top: 60px; /* Adjust this value based on the height of your NavBar */
+  padding: 20px;
+  flex:1;  
+  overflow-y: auto;
+}
+
+.login-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+ 
+  
+}
+
+.login-content {
+  text-align: center;
+  max-width: 400px;
+  padding: 40px;
+  background: linear-gradient(135deg, #ffffff, #ffffff); /* Subtle gradient background */
+  border-radius: 12px; /* Slightly more rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow for depth */
+  position: absolute;
+  bottom: 30px; /* Adjust to overlap */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.login-content:hover {
+  transform: translateX(-50%) translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+.login-content h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: bold; /* Bold heading */
+}
+
+.login-content p {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  font-style: italic; /* Italicized text for emphasis */
+}
+
+.login-button {
+  padding: 8px 24px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #1976D2;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.dotted-background {
+  background-image: none;
+  padding: 10px;
+  flex: 1;
+}
+
+.auth-message {
+  text-align: center;
+  padding: 40px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.auth-message h2 {
+  font-size: 1.2rem;
+  color: #666;
+  margin: 0;
+}
+
+.auth-welcome {
+  text-align: center;
+  padding: 40px;
+  margin: 40px auto;
+  max-width: 600px;
+}
+
+.auth-welcome h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.auth-welcome p {
+  font-size: 1rem;
+  color: #666;
+} 
+
+.sidebar {
+  width: 200px;
+  background-color: #f8f9fa;
+  padding: 10px;
+  margin-top: 60px; /* Adjust this value based on the height of your NavBar */
+  /* border-right: 1px solid #ddd; */
+}
+
+.sidebar-item {
+  margin-bottom: 10px;
+}
+
+.sidebar-title {
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 5px;
+}
+
+.sidebar-content {
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.sidebar-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-content li {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-content li:before {
+  content: '✔';
+  color: green;
+  margin-right: 5px;
+}
+
+/* Container for the image and prompt */
+
+
+/* LoginPrompt styling */
+.login-prompt {
+  
+}
